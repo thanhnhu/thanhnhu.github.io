@@ -1,6 +1,14 @@
-- title: Posts
-  sublinks:
-    - title: Welcome to Jekyll!
-      url: /_posts/
-    #- title: Docs
-    #  url: /docs/
+# - title: Posts
+#   sublinks:
+#     - title: Welcome to Jekyll!
+#       url: /_posts/
+#     #- title: Docs
+#     #  url: /docs/
+
+# <ul>
+#   {% for post in site.posts %}
+#     <li>
+#       <a href="{{ post.url }}">{{ post.title }}</a>
+#     </li>
+#   {% endfor %}
+# </ul>
