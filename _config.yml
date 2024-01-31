@@ -45,6 +45,13 @@ paginate: 3
 paginate_path: "/page:num/"
 comments: true
 
+# navbar-links:
+#   Moi: "aboutme"
+#   Projects:
+#     - Hell Game: "http://deanattali.com/beautiful-jekyll/"
+#     - Success City: "http://www.markdowntutorial.com/"
+#   Resume: "CV_Dang Thanh Nhu.pdf"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

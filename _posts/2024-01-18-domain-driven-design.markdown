@@ -3,6 +3,7 @@ layout: post
 title:  "What is Domain-Driven Design (DDD)"
 date:   2024-01-18 08:40:00 +0700
 categories: programming
+permalink: /domain-driven-design/
 ---
 DDD stands for `Domain-Driven Design`, which is an approach to software development that focuses on modeling complex business domains and aligning the software design with the domain. It was introduced by Eric Evans in his book "Domain-Driven Design: Tackling Complexity in the Heart of Software."
 

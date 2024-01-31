@@ -4,6 +4,7 @@ title:  "What is Object-Oriented Programming (OOP)"
 date:   2024-01-16 08:40:00 +0700
 sticky: true
 categories: programming
+permalink: /oop-programming/
 ---
 `Object-Oriented Programming (OOP)` is a programming paradigm that organizes code into objects, which are instances of classes. It focuses on representing real-world entities as objects that have properties (attributes) and behaviors (methods). OOP aims to provide a structured and modular approach to software development.
 

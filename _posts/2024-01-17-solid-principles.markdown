@@ -3,6 +3,7 @@ layout: post
 title:  "What is SOLID Principles"
 date:   2024-01-17 08:40:00 +0700
 categories: programming
+permalink: /solid-principles/
 ---
 The `SOLID` principles are a set of design principles that aim to guide software developers in writing code that is maintainable, flexible, and easy to understand. These principles were introduced by Robert C. Martin (also known as Uncle Bob) and have become widely accepted as best practices in object-oriented programming.
 

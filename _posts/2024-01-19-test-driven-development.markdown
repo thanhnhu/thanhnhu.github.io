@@ -3,6 +3,7 @@ layout: post
 title:  "What is Test-Driven Development (TDD)"
 date:   2024-01-19 08:40:00 +0700
 categories: programming
+permalink: /test-driven-development/
 ---
 `Test-Driven Development`, or TDD, is a software development approach that emphasizes writing tests before writing the actual implementation code. The TDD process typically follows three steps: Red, Green, and Refactor.
 
