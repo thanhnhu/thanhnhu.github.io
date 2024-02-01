@@ -23,6 +23,7 @@ author: Nhu Dang
 avatar: /images/avatar.png
 location: Da Nang, Viet Nam
 email: thanhnhudn@gmail.com
+toc: true
 description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog

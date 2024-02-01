@@ -14,12 +14,15 @@ sass	3.7.4
 --Run in CMD with Ruby
 
 [Refer to install pik](https://notepad.onghu.com/2021/ruby27-windows-install-hello_world) - nvm for ruby  
+```yml
 pik list  
 pik add 274  
 pik 274  
 bundle install  
 jekyll serve
-
+```
+Below for debug
+```yml
 --bundle exec jekyll serve  
 --gem cleanup  
 --gem which jekyll  
@@ -30,3 +33,4 @@ jekyll serve
 --gem cleanup public_suffix  
 --gem uninstall public_suffix --version 5.0.4  
 --gem install public_suffix -v '4.0.7'
+```

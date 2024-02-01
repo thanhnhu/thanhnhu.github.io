@@ -1,0 +1,23 @@
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.post-list li {
+  margin-bottom: 0;
+}
+
+.pin {
+  display: flex;
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  .sticky {
+    position: relative;
+    float: right;
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
