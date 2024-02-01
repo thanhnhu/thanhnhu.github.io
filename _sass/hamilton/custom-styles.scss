@@ -1,23 +1,62 @@
+.home {
+  margin-top: 1rem;
+}
+
 hr {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.site-nav {
+  .dropdown-content {
+    a {
+      white-space: nowrap;
+    }
+  }
+
+  .dropdown:hover .dropdown-content {
+    left: auto;
+    right: 0;
+  }
 }
 
 .post-list li {
   margin-bottom: 0;
 }
 
-.pin {
-  display: flex;
+.post-header {
+  padding-top: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 1rem;
 
-  h2 {
+  h1 {
     margin-bottom: 0;
   }
+}
 
-  .sticky {
-    position: relative;
-    float: right;
-    margin-left: auto;
-    margin-right: 0;
+.post-content {
+  p {
+    margin-bottom: 1rem;
+  }
+}
+
+.pin-view {
+  .pin-content {
+    display: flex;
+
+    h2 {
+      margin-bottom: 0;
+    }
+
+    .sticky {
+      position: relative;
+      float: right;
+      margin-left: auto;
+      margin-right: 0;
+    }
+  }
+
+  ul {
+    margin-bottom: 1rem;
   }
 }
