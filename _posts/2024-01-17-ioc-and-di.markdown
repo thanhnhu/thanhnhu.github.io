@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "What is Inversion of Control and Dependency Injection"
+date:   2024-01-17 08:40:00 +0700
+categories: programming
+permalink: /ioc-and-di/
+---
+`Inversion of Control (IoC)` is a design principle in software development where the control flow of a system is inverted or shifted from the application code to an external framework or container. In a traditional or imperative programming model, the main application code typically controls the flow of execution and manages the creation and lifetimes of objects. In contrast, with Inversion of Control, this control is handed over to an external entity, often referred to as an `IoC container`.
+
+Key concepts of Inversion of Control include:
+
+`Delegation of Control`: Instead of the application code directly controlling the flow of execution and managing dependencies, this responsibility is delegated to an external entity or framework.
+
+`Loose Coupling`: IoC promotes loose coupling between components of a system. Dependencies are managed externally, making it easier to replace or extend individual components without affecting the entire system.
+
+`Dependency Management`: IoC containers handle the creation, configuration, and lifetime management of objects and their dependencies. This is often achieved through mechanisms like `Dependency Injection (DI)`.
+
+`Configuration Over Code`: IoC allows developers to configure the behavior of an application through external configuration files or code, rather than hard-coding these details directly into the application code.
+
+`Flexibility and Extensibility`: By relying on an IoC container, applications become more flexible and extensible. New components can be easily added or existing ones replaced without modifying the core application code.
+
+In summary, Inversion of Control is a fundamental design principle that promotes a shift in control from the application code to an external framework or container. This inversion enhances modularity, maintainability, and flexibility in software systems. Frameworks and libraries supporting IoC often provide containers that manage dependencies, lifetimes, and other aspects of an application, allowing developers to focus on business logic rather than infrastructure concerns.
+
+#### Dependency Injection (DI)
+
+One common way to implement Inversion of Control is through `Dependency Injection (DI)`, where dependencies are injected into a component rather than being created or managed by the component itself. Dependency Injection is a specific technique that helps achieve IoC. This allows for more modular, maintainable, and testable code, as it promotes loose coupling between components.
+
+There are three common types of Dependency Injection:
+
+1. `Constructor Injection`: Dependencies are injected through the class constructor. This is considered the most common and recommended form of dependency injection.
+2. `Property Injection`: Dependencies are injected through public properties of the class.
+3. `Method Injection`: Dependencies are injected through methods of the class.
+
+#### Benefits of Dependency Injection:
+
+`Decoupling`: Dependency Injection promotes loose coupling between components, making it easier to replace or extend individual parts of the system without affecting others.
+
+`Testability`: By injecting dependencies, it becomes easier to substitute real implementations with mock objects or test doubles during unit testing.
+
+`Flexibility and Configurability`: Dependencies can be configured and swapped at runtime, enhancing flexibility and configurability.
+
+`Maintainability`: Code becomes more modular and easier to understand as dependencies are explicitly defined and managed.

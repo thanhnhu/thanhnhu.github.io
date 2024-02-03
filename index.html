@@ -1,17 +1,91 @@
 ---
-layout: home
+layout: default
 ---
-<div class="pin-view">
-  <div class="pin-content">
-    <h2>Simple projects</h2>
-    <div class="sticky"><i class="fas fa-thumbtack" style="font-size:18px"></i></div>
+
+{% include new-window-fix.html %}
+
+<div class="home">
+
+  <div class="pin-view">
+    <div class="pin-content">
+      <h2>Simple projects</h2>
+      <div class="sticky"><i class="fas fa-thumbtack" style="font-size:18px"></i></div>
+    </div>
+    <ul>
+      <li><a target="_blank" href="https://github.com/thanhnhu/GiveAndTake">https://github.com/thanhnhu/GiveAndTake</a>
+      </li>
+    </ul>
   </div>
-  <ul>
-    <li><a target="_blank" href="https://github.com/thanhnhu/GiveAndTake">https://github.com/thanhnhu/GiveAndTake</a>
+  <hr>
+
+  {% if site.paginate %}
+  <!-- {% assign posts = paginator.posts | sort: "stickiness" %} -->
+  {% assign posts = paginator.posts %}
+  {% else %}
+  {% assign posts = site.posts %}
+  {% endif %}
+
+  {%- if posts.size > 0 -%}
+  <ul class="post-list">
+    {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+    {%- for post in posts -%}
+    <li>
+      <h2>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h2>
+      <p class="post-meta">
+        <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ post.date | date: date_format }}
+        </time>
+        {%- if jekyll.environment == "production" and site.disqus -%}
+        • <a href="{{ post.url | relative_url }}#disqus_thread">
+          <span class="disqus-comment-count" data-disqus-url="{{ post.url | absolute_url }}"></span>
+        </a>
+        {%- endif -%}
+      </p>
+      {%- if post.show_excerpts != false -%}
+      <div class="post-excerpt">{{ post.excerpt | strip_html }}</div>
+      {%- endif -%}
     </li>
+    {%- endfor -%}
   </ul>
+
+  {% if site.paginate and paginator.total_pages > 1 %}
+  <div class="pager">
+    <div class="pagination">
+      {% if paginator.previous_page %}
+      <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">&laquo;</a></li>
+      {% else %}
+      <li><div class="pager-edge">•</div></li>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+      <li><div class="current-page"><em>{{ page }}</em></div></li>
+      {% elsif page == 1 %}
+      <li><a href="/">{{ page }}</a></li>
+      {% else %}
+      <li><a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a></li>
+      {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">&raquo;</a></li>
+      {% else %}
+      <li><div class="pager-edge">•</div></li>
+      {% endif %}
+    </div>
+  </div>
+  {%- endif %}
+
+  {%- endif -%}
+
+  {%- if jekyll.environment == "production" and site.disqus -%}
+  <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
+  {%- endif -%}
 </div>
-<hr>
 
 <!-- {% assign sorted = paginator.posts | sort: "stickiness" %}
 {% for post in sorted %}
@@ -20,5 +94,3 @@ layout: home
     <div class="content">{{ post.content }}</div>
   {% endif %}
 {% endfor %} -->
-
-{% include new-window-fix.html %}

@@ -4,7 +4,43 @@
       url: /oop-programming/
     - title: Solid Principles
       url: /solid-principles/
+    - title: IoC and DI
+      url: /ioc-and-di/
     - title: Domain-Driven Design
       url: /domain-driven-design/
     - title: Test-Driven Development
       url: /test-driven-development/
+    - title: What is Repository Pattern
+      url: /repository-pattern/
+    - title: Strongly typed language vs Scripting language
+      url: /strongly-typed-language-vs-scripting-language/
+    - title: Process vs Thread vs async/await
+      url: /process-vs-thread-vs-async/
+    - title: Delegate
+      url: /delegate/
+    - title: Interceptor vs Action Filter
+      url: /interceptor-vs-action-filter/
+    - title: throw vs throw ex
+      url: /throw-vs-throw-ex/
+    - title: GetHashCode vs Equal
+      url: /gethashcode-vs-equal/
+    - title: yield return
+      url: /yield-return/
+    - title: Collections of data
+      url: /collections-of-data/
+    - title: Prevent class inherit
+      url: /prevent-class-inherit/
+    - title: Entity Framework and lazy loading
+      url: /entity-framework-and-lazy-loading/
+    - title: OAuth2 vs JWT
+      url: /oauth2-vs-jwt/
+    - title: REST API vs WebAPI vs MVC
+      url: /restapi-vs-webapi-vs-mvc/
+    - title: Table vs View
+      url: /table-vs-view/
+    - title: Table Index
+      url: /table-index/
+    - title: Where vs Having
+      url: /where-vs-having/
+    - title: Delete vs Truncate
+      url: /delete-vs-truncate/

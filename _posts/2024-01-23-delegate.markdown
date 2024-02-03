@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "What is Delegate"
+date:   2024-01-23 08:40:00 +0700
+categories: programming
+permalink: /delegate/
+---
+`Delegate` is a type that represents references to methods (pointer to methods). It allows methods to be passed as parameters, stored as variables, and invoked indirectly. Delegates are a powerful feature of languages like C# and are often used in event handling, callbacks, and implementing various design patterns.
+
+Delegates provide a way to achieve decoupling in your code, allowing you to change the method being called without changing the code that calls it. They are widely used in event-driven programming and the implementation of callbacks.
+
+We have three built in generic delegates:
+1. Func: It takes a generic input and returns generic output
+2. Action: It takes a generic input and returns nothing
+3. Predicate: It takes a generic input and always returns Boolean
+
+These generic delegates are used extensively in built in classes of .NET and we can use them to make our delegates shorter

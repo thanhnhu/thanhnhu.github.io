@@ -13,7 +13,7 @@ permalink: /test-driven-development/
 
 This cycle of Red-Green-Refactor is repeated for each new feature or functionality that needs to be implemented. By following TDD, developers can ensure that their code is thoroughly tested and that the tests serve as documentation for the expected behavior of the code.
 
-`Benefits of TDD`:
+#### Benefits of TDD:
 - `Test Coverage`: TDD encourages developers to write tests for every piece of code they write. This leads to high test coverage and helps catch bugs early in the development process.
 - `Design Improvement`: TDD promotes better code design as the tests drive the design decisions. It encourages modular and loosely coupled code that is easier to understand and maintain.
 - `Refactoring Confidence`: With a solid suite of tests, developers can refactor their code confidently, knowing that if they break any existing functionality, the tests will catch it.
