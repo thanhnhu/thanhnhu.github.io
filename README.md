@@ -13,7 +13,7 @@ sass	3.7.4
 # Installation
 --Run in CMD with Ruby
 
-[Refer to install pik](https://notepad.onghu.com/2021/ruby27-windows-install-hello_world) - nvm for ruby  
+[Refer to install pik](https://notepad.onghu.com/2021/ruby27-windows-install-hello_world) - rvm on windows  
 ```yml
 $ pik list  
 $ pik add 274  
