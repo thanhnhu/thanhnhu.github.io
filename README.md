@@ -1,7 +1,7 @@
-# thanhnhu.github.io
-My portfolio
+# My portfolio
+Live at [thanhnhu.github.io](https://thanhnhu.github.io)
 
-# GitHub Pages Dependency versions
+## GitHub Pages Dependency versions
 
 ruby	2.7.4  
 jekyll	3.9.3  
@@ -10,7 +10,7 @@ jekyll-paginate	1.1.0
 nokogiri	1.15.4  
 sass	3.7.4
 
-# Installation
+## Installation
 --Run in CMD with Ruby
 
 [Refer to install pik](https://notepad.onghu.com/2021/ruby27-windows-install-hello_world) - rvm on windows  
