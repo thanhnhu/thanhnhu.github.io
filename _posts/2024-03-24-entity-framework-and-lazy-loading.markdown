@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is Entity Framework and lazy loading?"
-date:   2024-01-30 08:40:00 +0700
+date:   2024-03-24 08:40:00 +0700
 categories: programming
 permalink: /entity-framework-and-lazy-loading/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Table vs View"
-date:   2024-02-03 08:40:00 +0700
+date:   2024-03-30 08:40:00 +0700
 categories: programming
 permalink: /table-vs-view/
 ---

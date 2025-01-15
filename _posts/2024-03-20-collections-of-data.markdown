@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Collections of data"
-date:   2024-01-28 08:40:00 +0700
+date:   2024-03-20 08:40:00 +0700
 categories: programming
 permalink: /collections-of-data/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Interceptor vs Action Filter"
-date:   2024-01-24 08:40:00 +0700
+date:   2024-03-12 08:40:00 +0700
 categories: programming
 permalink: /interceptor-vs-action-filter/
 ---

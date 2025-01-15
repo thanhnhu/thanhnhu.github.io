@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is SOLID Principles"
-date:   2024-01-16 08:40:00 +0700
+date:   2024-01-20 08:40:00 +0700
 categories: programming
 permalink: /solid-principles/
 ---

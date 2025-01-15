@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is Object-Oriented Programming (OOP)"
-date:   2024-01-15 08:40:00 +0700
+date:   2024-01-18 08:40:00 +0700
 sticky: true
 categories: programming
 permalink: /oop-programming/

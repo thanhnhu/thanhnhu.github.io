@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Table Index"
-date:   2024-02-04 08:40:00 +0700
+date:   2024-04-02 08:40:00 +0700
 categories: programming
 permalink: /table-index/
 ---

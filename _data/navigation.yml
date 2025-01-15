@@ -1,25 +1,37 @@
 - title: Posts
   sublinks:
+    - title: Strongly typed language vs Scripting language
+      url: /strongly-typed-language-vs-scripting-language/
     - title: Object-Oriented Programming
       url: /oop-programming/
     - title: Solid Principles
       url: /solid-principles/
-    - title: IoC and DI
-      url: /ioc-and-di/
     - title: Domain-Driven Design
       url: /domain-driven-design/
     - title: Test-Driven Development
       url: /test-driven-development/
+    - title: IoC and DI
+      url: /ioc-and-di/
+    - title: Microservices And CQRS
+      url: /microservices-and-cqrs/
+    - title: Microservices And MediatR
+      url: /microservices-and-mediatr/
+    - title: Microservices and Aggregate Root
+      url: /microservices-and-aggregate-root/
+    - title: Microservices and Message Queue, Event Sourcing
+      url: /microservices-and-message-queue-and-event-sourcing/
+    - title: Microservices Integration
+      url: /microservices-integration/
     - title: What is Repository Pattern
       url: /repository-pattern/
-    - title: Strongly typed language vs Scripting language
-      url: /strongly-typed-language-vs-scripting-language/
     - title: Process vs Thread vs async/await
       url: /process-vs-thread-vs-async/
     - title: Delegate
       url: /delegate/
     - title: Interceptor vs Action Filter
       url: /interceptor-vs-action-filter/
+    - title: Middleware vs Action Filter
+      url: /middleware-vs-action-filter/
     - title: throw vs throw ex
       url: /throw-vs-throw-ex/
     - title: GetHashCode vs Equal
@@ -44,3 +56,11 @@
       url: /where-vs-having/
     - title: Delete vs Truncate
       url: /delete-vs-truncate/
+    - title: Javascript var let const
+      url: /javascript-var-let-const/
+    - title: Javascript Array Clone Reference
+      url: /javascript-array-clone-reference/
+    - title: Angular Observable vs Subject
+      url: /angular-observable-subject/
+    - title: Angular ngRX
+      url: /angular-ngrx/

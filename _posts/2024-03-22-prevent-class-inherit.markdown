@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to prevent class from being inherited?"
-date:   2024-01-29 08:40:00 +0700
+date:   2024-03-22 08:40:00 +0700
 categories: programming
 permalink: /prevent-class-inherit/
 ---

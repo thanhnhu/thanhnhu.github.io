@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OAuth2 vs JWT"
-date:   2024-02-01 08:40:00 +0700
+date:   2024-03-26 08:40:00 +0700
 categories: programming
 permalink: /oauth2-vs-jwt/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is Inversion of Control and Dependency Injection"
-date:   2024-01-17 08:40:00 +0700
+date:   2024-01-22 08:40:00 +0700
 categories: programming
 permalink: /ioc-and-di/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GetHashCode vs Equal"
-date:   2024-01-26 08:40:00 +0700
+date:   2024-03-16 08:40:00 +0700
 categories: programming
 permalink: /gethashcode-vs-equal/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is yield return"
-date:   2024-01-27 08:40:00 +0700
+date:   2024-03-18 08:40:00 +0700
 categories: programming
 permalink: /yield-return/
 ---

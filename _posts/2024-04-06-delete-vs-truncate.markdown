@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Delete vs Truncate"
-date:   2024-02-06 08:40:00 +0700
+date:   2024-04-06 08:40:00 +0700
 categories: programming
 permalink: /delete-vs-truncate/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "REST API vs WebAPI vs MVC"
-date:   2024-02-02 08:40:00 +0700
+date:   2024-03-28 08:40:00 +0700
 categories: programming
 permalink: /restapi-vs-webapi-vs-mvc/
 ---
