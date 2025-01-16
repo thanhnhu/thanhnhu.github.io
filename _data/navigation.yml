@@ -18,8 +18,10 @@
       url: /microservices-and-mediatr/
     - title: Microservices and Aggregate Root
       url: /microservices-and-aggregate-root/
-    - title: Microservices and Message Queue, Event Sourcing
-      url: /microservices-and-message-queue-and-event-sourcing/
+    - title: Microservices and Message Queue
+      url: /microservices-and-message-queue/
+    - title: Microservices and Event Sourcing
+      url: /microservices-and-event-sourcing/
     - title: Microservices Integration
       url: /microservices-integration/
     - title: What is Repository Pattern

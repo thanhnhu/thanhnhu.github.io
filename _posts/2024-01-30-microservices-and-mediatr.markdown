@@ -6,8 +6,6 @@ categories: programming
 permalink: /microservices-and-mediatr/
 ---
 
-### What is MediatR in Microservices?
-
 `MediatR` is a simple, lightweight library that facilitates the **Mediator design pattern** in C#. In the context of Microservices, `MediatR acts as an in-memory message bus` that allows decoupled communication between components such as request handlers and command handlers. Instead of components communicating directly with each other, they communicate through MediatR, which routes the message (request) to the appropriate handler.
 
 ### Why Use MediatR in Microservices?

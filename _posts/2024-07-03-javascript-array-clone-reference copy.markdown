@@ -14,7 +14,7 @@ As a result:
 2. If you want to copy an array without modifying the original array, you need to create a clone.
 
 #### Example Demonstrations:
-1. Changes via reference:
+1\. Changes via reference:
 
 ```typescript
 let arr1 = [1, 2, 3];
@@ -25,7 +25,7 @@ console.log(arr1); // [100, 2, 3]
 console.log(arr2); // [100, 2, 3]
 ```
 
-2. Create a copy to avoid modifying the original:
+2\. Create a copy to avoid modifying the original:
 
 If you want to copy an array instead of referencing it, you can use the following methods:
 

@@ -5,7 +5,6 @@ date:   2024-01-28 08:40:00 +0700
 categories: programming
 permalink: /microservices-and-cqrs/
 ---
-### Microservices Overview
 
 **Microservices Architecture** is a design approach where an application is composed of small, loosely coupled, and independently deployable services. Each service is focused on a specific business capability and can be developed, deployed, and scaled independently.
 
@@ -16,7 +15,7 @@ permalink: /microservices-and-cqrs/
 4. **Scalability:** Individual services can be scaled based on demand.  
 5. **Technology Diversity:** Different services can use different technologies and programming languages.
 
-### CQRS (Command Query Responsibility Segregation)
+## CQRS (Command Query Responsibility Segregation)
 
 **CQRS** separates read (query) and write (command) operations into different models.  
 - **Command**: Handles operations that change the state (Create, Update, Delete).  
@@ -28,7 +27,7 @@ permalink: /microservices-and-cqrs/
 3. **Scalability:** Commands and queries can be scaled independently.  
 4. **Flexibility:** Easier to apply Event Sourcing, logging, and auditing.
 
-### Why Microservices + CQRS Is Better Than Monolithic Architecture
+## Why Microservices + CQRS Is Better Than Monolithic Architecture
 
 | **Aspect**            | **Monolithic Architecture**                    | **Microservices + CQRS**                              |
 |----------------------|-------------------------------------------------|-------------------------------------------------------|
@@ -45,7 +44,7 @@ permalink: /microservices-and-cqrs/
 - Eventual Consistency: With separate command and query models, achieving eventual consistency may require additional mechanisms, such as events, which can lead to latency.
 - Overhead for Simple Systems: For simple applications, implementing CQRS may be overkill as it adds unnecessary complexity without providing significant benefits.
 
-### Detailed C# Implementation (Microservices + CQRS)
+## Detailed C# Implementation (Microservices + CQRS)
 
 Let's implement a basic **Order Service** using **CQRS** in a microservices setup.
 

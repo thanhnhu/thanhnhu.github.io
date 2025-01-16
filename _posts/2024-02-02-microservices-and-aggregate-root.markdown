@@ -6,8 +6,6 @@ categories: programming
 permalink: /microservices-and-aggregate-root/
 ---
 
-### What is Aggregate Root?
-
 **Aggregate Root** is a central concept in **Domain-Driven Design (DDD)**. It acts as the entry point to a group of related entities, ensuring consistency and enforcing business rules.
 
 #### Key Characteristics:
@@ -16,7 +14,7 @@ permalink: /microservices-and-aggregate-root/
 3. **Transactional Boundary** – Handles transactions as a unit.  
 4. **Domain Integrity** – Enforces domain logic within the aggregate.
 
-### Why Aggregate Root Is Better
+## Why Aggregate Root Is Better
 
 | **Aspect**        | **Without Aggregate Root**                   | **With Aggregate Root**        |
 | ----------------- | -------------------------------------------- | ------------------------------ |
@@ -25,7 +23,7 @@ permalink: /microservices-and-aggregate-root/
 | **Complexity**    | Complex and unstructured.                    | Simplifies relationships.      |
 | **Transactional** | Manual transaction management.               | Naturally handled in the root. |
 
-### Code Comparison
+## Code Comparison
 
 #### Without Aggregate Root
 
