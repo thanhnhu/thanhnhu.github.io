@@ -24,6 +24,8 @@
       url: /microservices-and-event-sourcing/
     - title: Microservices Integration
       url: /microservices-integration/
+    - title: Hexagonal, Onion, and Clean Architectures
+      url: /hexagonal-onion-and-clean-architectures/
     - title: What is Repository Pattern
       url: /repository-pattern/
     - title: Process vs Thread vs async/await
